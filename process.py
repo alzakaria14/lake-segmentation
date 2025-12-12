@@ -46,7 +46,13 @@ mask_lake_clean = cv2.morphologyEx(mask_lake_clean, cv2.MORPH_CLOSE, kernel, ite
 lake_segmented = cv2.bitwise_and(img_rgb, img_rgb, mask=mask_lake_clean)
 
 # ======================================
-# 6. TAMPILKAN HASIL
+# 6. SIMPAN MASK SEBAGAI FILE BINARY PNG
+# ======================================
+cv2.imwrite("lake_mask_binary.png", mask_lake_clean)
+print("Mask biner berhasil disimpan sebagai lake_mask_binary.png")
+
+# ======================================
+# 7. TAMPILKAN HASIL
 # ======================================
 plt.figure(figsize=(15, 6))
 

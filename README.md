@@ -218,7 +218,7 @@ tex_thr = np.percentile(texture_norm, 65)  # 60-70
 
 MIT License
 
-Copyright (c) 2024 Al Zakaria
+Copyright (c) 2025 Al Zakaria
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

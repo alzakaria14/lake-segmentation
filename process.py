@@ -12,7 +12,7 @@ os.makedirs("mask-clean", exist_ok=True)
 # ======================================
 # 1. BACA GAMBAR
 # ======================================
-img_bgr = cv2.imread("sample/3.jpg")
+img_bgr = cv2.imread("sample/5.jpg")
 if img_bgr is None:
     raise FileNotFoundError("Gambar tidak ditemukan. Cek path: sample/5.jpg")
 

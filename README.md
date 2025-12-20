@@ -39,7 +39,7 @@ matplotlib>=3.3.0
 
 1. Clone repository ini:
 ```bash
-git clone https://github.com/username/lake-segmentation.git
+git clone https://github.com/username/-segmentation.git
 cd lake-segmentation
 ```
 
@@ -59,11 +59,11 @@ pip install opencv-python numpy matplotlib
 Pastikan struktur folder sebagai berikut:
 ```
 project/
-├── segment_lake.py
+├── process.py
 ├── sample/
 │   └── yoursample.jpg          # Gambar input Anda
 ├── result/            # Otomatis dibuat
-└── mask-clean/        # Otomatis dibuat
+└── mask-clean/        # Dari fiji secara manual
 ```
 
 ### Menjalankan Program

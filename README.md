@@ -39,7 +39,7 @@ matplotlib>=3.3.0
 
 1. Clone repository ini:
 ```bash
-git clone https://github.com/username/-segmentation.git
+git clone https://github.com/username/lake-segmentation.git
 cd lake-segmentation
 ```
 
